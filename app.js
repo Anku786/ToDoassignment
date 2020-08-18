@@ -17,7 +17,7 @@ mongoose.connection.on('error' , (err)=>{
 	console.log('error connecting' , err);
 });
 
-require('./model/User');
+require('./model/user');
 require('./model/ToDo');
 
 app.use(express.json());
